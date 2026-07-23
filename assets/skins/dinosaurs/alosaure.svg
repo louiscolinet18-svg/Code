@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Alosaure - Dinosaure bipède avec point d'ancrage au sol -->
+  <defs>
+    <linearGradient id="alosaureGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Corps principal -->
+  <path d="M60,150 Q80,100 100,80 Q120,100 140,150 L140,180 L120,180 L120,160 Q100,170 80,160 L80,180 L60,180 Z" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Tête -->
+  <path d="M140,150 Q160,140 180,150 Q170,130 160,120 Q150,130 140,150 Z" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  <circle cx="170" cy="140" r="3" fill="#FF0000"/>
+  
+  <!-- Bras -->
+  <path d="M100,100 Q80,90 60,100 Q70,110 100,100 Z" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  <path d="M100,100 Q120,90 140,100 Q130,110 100,100 Z" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Queue -->
+  <path d="M60,150 Q40,140 20,150 Q30,160 60,150 Z" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Pattes -->
+  <path d="M80,180 L80,190 L75,190 L75,180" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  <path d="M120,180 L120,190 L125,190 L125,180" fill="url(#alosaureGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Croix rouge dans l'oeil (cachée par défaut) -->
+  <g id="crossEye" style="opacity:0">
+    <line x1="165" y1="135" x2="175" y2="145" stroke="#FF0000" stroke-width="2"/>
+    <line x1="175" y1="135" x2="165" y2="145" stroke="#FF0000" stroke-width="2"/>
+  </g>
+  
+  <!-- Sang (caché par défaut) -->
+  <g id="bloodEffect" style="opacity:0">
+    <path d="M100,100 Q120,80 140,100 Q130,110 100,100" fill="#FF0000" opacity="0.5"/>
+    <path d="M80,120 Q100,100 120,120 Q110,130 80,120" fill="#FF0000" opacity="0.5"/>
+  </g>
+</svg>
