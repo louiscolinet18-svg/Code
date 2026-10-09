@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Tricératops - Dinosaure à cornes avec point d'ancrage au sol -->
+  <defs>
+    <linearGradient id="trikeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#483D8B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#663399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Corps principal (large et bas) -->
+  <path d="M40,170 Q60,140 100,130 Q140,140 160,170 L160,190 L80,190 L80,180 Q100,185 120,180 L120,190 L40,190 Z" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Tête avec collerette -->
+  <path d="M160,170 Q180,160 200,170 Q190,150 180,140 Q170,150 160,170 Z" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Collerette -->
+  <path d="M170,150 Q180,130 190,150 Q185,140 175,140 Q170,145 170,150 Z" fill="url(#trikeGradient)" stroke="#000" stroke-width="1"/>
+  
+  <!-- Corne gauche -->
+  <path d="M170,140 L160,110 L165,110 L175,140 Z" fill="#8B8000" stroke="#000" stroke-width="1"/>
+  
+  <!-- Corne droite -->
+  <path d="M190,140 L200,110 L195,110 L185,140 Z" fill="#8B8000" stroke="#000" stroke-width="1"/>
+  
+  <!-- Corne du nez -->
+  <path d="M180,150 L180,120 L185,120 L185,150 Z" fill="#8B8000" stroke="#000" stroke-width="1"/>
+  
+  <circle cx="185" cy="155" r="3" fill="#FF0000"/>
+  
+  <!-- Pattes avant -->
+  <path d="M80,190 L80,200 L70,200 L70,190" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  <path d="M100,190 L100,200 L110,200 L110,190" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Pattes arrière -->
+  <path d="M120,190 L120,200 L130,200 L130,190" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  <path d="M140,190 L140,200 L150,200 L150,190" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Queue courte -->
+  <path d="M40,170 Q20,160 0,170 Q10,180 40,170 Z" fill="url(#trikeGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Croix rouge dans l'oeil -->
+  <g id="crossEye" style="opacity:0">
+    <line x1="180" y1="150" x2="190" y2="160" stroke="#FF0000" stroke-width="2"/>
+    <line x1="190" y1="150" x2="180" y2="160" stroke="#FF0000" stroke-width="2"/>
+  </g>
+  
+  <!-- Sang -->
+  <g id="bloodEffect" style="opacity:0">
+    <path d="M100,130 Q130,110 160,130 Q150,140 100,130" fill="#FF0000" opacity="0.5"/>
+    <path d="M80,150 Q110,130 140,150 Q130,160 80,150" fill="#FF0000" opacity="0.5"/>
+  </g>
+</svg>

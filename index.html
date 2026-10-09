@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur Skins & Growth System</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Game Area -->
+        <div class="game-area" id="gameArea">
+            <!-- Player with current skin -->
+            <div class="player" id="player">
+                <img src="assets/skins/dinosaurs/alosaure.svg" alt="Alosaure" class="skin-image" id="currentSkin" data-skin="alosaure" data-stage="1">
+                <!-- Growth silhouettes (hidden by default) -->
+                <div class="growth-silhouettes" id="growthSilhouettes">
+                    <svg class="silhouette stage-1" viewBox="0 0 100 100"><path d="M20,80 Q50,20 80,80 L80,90 L20,90 Z" fill="rgba(255,0,0,0.3)"/></svg>
+                    <svg class="silhouette stage-2" viewBox="0 0 100 100"><path d="M15,80 Q50,15 85,80 L85,90 L15,90 Z" fill="rgba(255,165,0,0.3)"/></svg>
+                    <svg class="silhouette stage-3" viewBox="0 0 100 100"><path d="M10,80 Q50,10 90,80 L90,90 L10,90 Z" fill="rgba(255,255,0,0.3)"/></svg>
+                    <svg class="silhouette stage-4" viewBox="0 0 100 100"><path d="M5,80 Q50,5 95,80 L95,90 L5,90 Z" fill="rgba(0,255,0,0.3)"/></svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shop Section -->
+        <div class="shop-container">
+            <h2>Boutique de Skins</h2>
+            <div class="skins-grid" id="skinsGrid">
+                <!-- Skins will be populated by JavaScript -->
+            </div>
+
+            <h2>Boutique de Nourriture</h2>
+            <div class="food-grid" id="foodGrid">
+                <!-- Food will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Diet Info Display -->
+        <div class="diet-info" id="dietInfo">
+            <h3>Diets Actifs</h3>
+            <div class="active-diets" id="activeDiets"></div>
+        </div>
+    </div>
+
+    <script src="public/js/data.js"></script>
+    <script src="public/js/game.js"></script>
+</body>
+</html>

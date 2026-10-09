@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Silhouettes pour Alosaure - tous les stades -->
+  
+  <!-- Stage 1 -->
+  <g id="stage-1" class="silhouette" style="opacity:0.7">
+    <path d="M60,150 Q80,100 100,80 Q120,100 140,150 L140,180 L120,180 L120,160 Q100,170 80,160 L80,180 L60,180 Z" fill="rgba(255,0,0,0.3)" stroke="#FF0000" stroke-width="1"/>
+  </g>
+  
+  <!-- Stage 2 -->
+  <g id="stage-2" class="silhouette" style="opacity:0.7">
+    <path d="M55,150 Q75,90 95,70 Q115,90 135,150 L135,180 L115,180 L115,160 Q95,170 75,160 L75,180 L55,180 Z" fill="rgba(255,165,0,0.3)" stroke="#FFA500" stroke-width="1"/>
+  </g>
+  
+  <!-- Stage 3 -->
+  <g id="stage-3" class="silhouette" style="opacity:0.7">
+    <path d="M50,150 Q70,80 90,60 Q110,80 130,150 L130,180 L110,180 L110,160 Q90,170 70,160 L70,180 L50,180 Z" fill="rgba(255,255,0,0.3)" stroke="#FFFF00" stroke-width="1"/>
+  </g>
+  
+  <!-- Stage 4 -->
+  <g id="stage-4" class="silhouette" style="opacity:0.7">
+    <path d="M45,150 Q65,70 85,50 Q105,70 125,150 L125,180 L105,180 L105,160 Q85,170 65,160 L65,180 L45,180 Z" fill="rgba(0,255,0,0.3)" stroke="#00FF00" stroke-width="1"/>
+  </g>
+</svg>
